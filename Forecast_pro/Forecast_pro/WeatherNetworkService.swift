@@ -52,7 +52,7 @@ class WeatherNetworkService {
         
         lastAIRequestTime = Date()
         
-        let apiKey = "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"
+        let apiKey = ""
         let url = "https://api.openai.com/v1/chat/completions"
         
         let parameters: [String: Any] = [
